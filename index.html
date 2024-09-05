@@ -5,18 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
 
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- cabeçalho -->
     <header>
         <h1>Formulário de Informações Pessoais</h1>
         <p>Preencha as informações abaixo:</p>
     </header>
 
+    <!-- corpo -->
     <div class="corpo">
-        <section id="formulario" name="formulario"  onsubmit="event.preventDefault()">
-            <form id="infos">
-                <div class="form-grupo">
+        <!-- formulário -->
+        <section id="formulario">
+            <form id="infos" name="formulario"  onsubmit="event.preventDefault()">
+                <!-- campos -->
+                <div class="form-grupo">  
                     <label for="nome">Nome:</label>
                     <input type="text" id="nome" name="nome" required>
                 </div>
@@ -42,6 +47,7 @@
             </form>
         </section>
 
+        <!-- resultado -->
         <section id="resultado">
             <h2>Informações submetidas:</h2>
             <p id="resultadoNome"></p>
@@ -51,10 +57,12 @@
         </section>
     </div>
 
+    <!-- rodapé -->
     <footer>
         <p id="txt-footer">Formulário simples desenvolvido por Júpiter Guimarães.</p>
     </footer>
 
+    <!-- JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>

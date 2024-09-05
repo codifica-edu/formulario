@@ -1,26 +1,26 @@
 /*  */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0; /* Remove a margem padrão do body */
+    padding: 0; /* Remove o padding padrão do body */
+    box-sizing: border-box; /* Faz com que o padding e a borda não aumentem o tamanho do elemento */
 }
 
 html, body {
-    height: 100%;
-    margin: 0;
+    height: 100%; /* Faz com que o body tenha 100% da altura da tela */
+    margin: 0; /* Remove a margem padrão do body */
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Arial', sans-serif; 
     background-color: #f0f8ff;
     color: #333;
-    display: flex;
-    flex-direction: column;
+    display: flex; /* Faz com que os elementos fiquem em linha e tenham as propriedades flex */
+    flex-direction: column; /* Faz com que os elementos fiquem em coluna */
 }
 
 header {
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 2rem; 
 }
 
 h1 {
@@ -36,11 +36,11 @@ p {
 .corpo {
     background-color: #fff;
     border-radius: 10px;
-    max-width: 37rem;
+    max-width: 37rem; /* Limita a largura do elemento */
     padding: 1rem 2rem;
     margin: 0 auto;
-    display: flex;
-    flex: 1;
+    display: flex; /* Faz com que os elementos fiquem em linha e tenham as propriedades flex */
+    flex: 1; /* Faz com que o elemento ocupe todo o espaço disponível */
     margin-bottom: 5rem;
 }
 
@@ -57,8 +57,8 @@ form {
 }
 
 label {
-    display: block;
-    font-weight: bold;
+    display: block; /* Faz com que o elemento seja exibido em bloco */
+    font-weight: bold; 
     margin-bottom: 0.5rem;
 }
 
@@ -74,15 +74,15 @@ button {
     background-color: #4a90e2;
     color: white;
     padding: 10px 15px;
-    border: none;
+    border: none; /* Remove a borda do botão */
     border-radius: 5px;
-    cursor: pointer;
+    cursor: pointer; /* Muda o cursor do mouse para uma mãozinha */
     font-size: 1em;
-    display: inline-block;
+    display: inline-block; /* Faz com que o elemento seja exibido em linha para poder ser centralizado */
 }
 
 .btn {
-    text-align: center;
+    text-align: center; /* Centraliza o botão */
 }
 
 button:hover {
@@ -105,7 +105,7 @@ button:hover {
     font-size: 1.1em;
 }
 
-#resultado:hover {
+#resultado:hover { /* Adiciona um efeito de hover no elemento */
     background-color: #f0f8ff;
 }
 
@@ -114,6 +114,6 @@ footer {
     padding: 15px;
     background-color: #224879;
     color: white;
-    width: 100%; 
-    margin-top: auto;
+    width: 100%; /* Faz com que o elemento ocupe toda a largura da tela */
+    margin-top: auto; /* Faz com que o elemento fique no final da página */
 }
